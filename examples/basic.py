@@ -20,12 +20,16 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 
-import parsedatetime.parsedatetime as pdt
-import parsedatetime.parsedatetime_consts as pdc
+import logging
+from datetime import datetime
+
+import parsedatetime as pd
+
+logging.getLogger().setLevel(logging.CRITICAL)
 
 # create an instance of Constants class so we can override some of the defaults
 
-c = pdc.Constants()
+c = pd.Constants()
 
 c.BirthdayEpoch = 80    # BirthdayEpoch controls how parsedatetime
                         # handles two digit years.  If the parsed
@@ -36,20 +40,22 @@ c.BirthdayEpoch = 80    # BirthdayEpoch controls how parsedatetime
 # create an instance of the Calendar class and pass in our Constants
 # object instead of letting it create a default
 
-p = pdt.Calendar(c)
+p = pd.Calendar(c)
 
 # parse "tomorrow" and return the result
 
 result = p.parse("tomorrow")
+print result
+print datetime(*result[0][:6])
 
 # parseDate() is a helper function that bypasses all of the
 # natural language stuff and just tries to parse basic dates
 # but using the locale information
 
-result = p.parseDate("4/4/80")
+print p.parseDate("4/4/80")
 
 # parseDateText() is a helper function that tries to parse
 # long-form dates using the locale information
 
-result = p.parseDateText("March 5th, 1980")
+print p.parseDateText("March 5th, 1980")
 
