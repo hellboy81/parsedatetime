@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>parsedatetime.parsedatetime.Calendar</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="parsedatetime-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://code-bear.com/code/parsedatetime">parsedatetime</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="parsedatetime-module.html">Package&nbsp;parsedatetime</a> ::
+        <a href="parsedatetime.parsedatetime-module.html">Module&nbsp;parsedatetime</a> ::
+        Class&nbsp;Calendar
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="parsedatetime.parsedatetime.Calendar-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Calendar</h1><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar">source&nbsp;code</a></span><br /><br />
+A collection of routines to input, parse and manipulate date and 
+  times. The text can either be 'normal' date values or it can be human 
+  readable.<br /><br />
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">object</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">constants</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Default constructor for the <a 
+      href="parsedatetime.parsedatetime.Calendar-class.html" 
+      class="link">Calendar</a> class.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">integer</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#_convertUnitAsWords" class="summary-sig-name">_convertUnitAsWords</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">unitText</span>)</span><br />
+      Converts text units into their number value</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._convertUnitAsWords">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">struct_time</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#_buildTime" class="summary-sig-name">_buildTime</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">source</span>,
+        <span class="summary-sig-arg">quantity</span>,
+        <span class="summary-sig-arg">modifier</span>,
+        <span class="summary-sig-arg">units</span>)</span><br />
+      Take <code>quantity</code>, <code>modifier</code> and 
+      <code>unit</code> strings and convert them into values.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._buildTime">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">struct_time</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#parseDate" class="summary-sig-name">parseDate</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">dateString</span>)</span><br />
+      Parse short-form date strings:</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.parseDate">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">struct_time</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#parseDateText" class="summary-sig-name">parseDateText</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">dateString</span>)</span><br />
+      Parse long-form date strings:</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.parseDateText">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">tuple</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#evalRanges" class="summary-sig-name">evalRanges</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">datetimeString</span>,
+        <span class="summary-sig-arg">sourceTime</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Evaluate the <code>datetimeString</code> text and determine if it 
+      represents a date or time range.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.evalRanges">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">integer</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#_CalculateDOWDelta" class="summary-sig-name">_CalculateDOWDelta</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">wd</span>,
+        <span class="summary-sig-arg">wkdy</span>,
+        <span class="summary-sig-arg">offset</span>,
+        <span class="summary-sig-arg">style</span>,
+        <span class="summary-sig-arg">currentDayStyle</span>)</span><br />
+      Based on the <code>style</code> and <code>currentDayStyle</code> 
+      determine what day-of-week value is to be returned.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._CalculateDOWDelta">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">tuple</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#_evalModifier" class="summary-sig-name">_evalModifier</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">modifier</span>,
+        <span class="summary-sig-arg">chunk1</span>,
+        <span class="summary-sig-arg">chunk2</span>,
+        <span class="summary-sig-arg">sourceTime</span>)</span><br />
+      Evaluate the <code>modifier</code> string and following text 
+      (passed in as <code>chunk1</code> and <code>chunk2</code>) and if 
+      they match any known modifiers calculate the delta and apply it to 
+      <code>sourceTime</code>.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._evalModifier">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">tuple</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#_evalModifier2" class="summary-sig-name">_evalModifier2</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">modifier</span>,
+        <span class="summary-sig-arg">chunk1</span>,
+        <span class="summary-sig-arg">chunk2</span>,
+        <span class="summary-sig-arg">sourceTime</span>)</span><br />
+      Evaluate the <code>modifier</code> string and following text 
+      (passed in as <code>chunk1</code> and <code>chunk2</code>) and if 
+      they match any known modifiers calculate the delta and apply it to 
+      <code>sourceTime</code>.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._evalModifier2">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">datetime</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#_evalString" class="summary-sig-name">_evalString</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">datetimeString</span>,
+        <span class="summary-sig-arg">sourceTime</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Calculate the datetime based on flags set by the <a 
+      href="parsedatetime.parsedatetime.Calendar-class.html#parse" 
+      class="link">parse()</a> routine</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._evalString">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">tuple</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#parse" class="summary-sig-name">parse</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">datetimeString</span>,
+        <span class="summary-sig-arg">sourceTime</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Splits the given <code>datetimeString</code> into tokens, finds 
+      the regex patterns that match and then calculates a 
+      <code>struct_time</code> value from the chunks.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.parse">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">datetime</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="parsedatetime.parsedatetime.Calendar-class.html#inc" class="summary-sig-name">inc</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">source</span>,
+        <span class="summary-sig-arg">month</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">year</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Takes the given <code>source</code> date, or current date if none 
+      is passed, and increments it according to the values passed in by 
+      month and/or year.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.inc">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">constants</span>=<span class="sig-default">None</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  Default constructor for the <a 
+  href="parsedatetime.parsedatetime.Calendar-class.html" 
+  class="link">Calendar</a> class.
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>constants</code></strong> (object) - Instance of the class <a 
+          href="parsedatetime.parsedatetime_consts.Constants-class.html" 
+          class="link">parsedatetime_consts.Constants</a></li>
+    </ul></dd>
+    <dt>Returns: object</dt>
+        <dd><a href="parsedatetime.parsedatetime.Calendar-class.html" 
+          class="link">Calendar</a> instance</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_convertUnitAsWords"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_convertUnitAsWords</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">unitText</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._convertUnitAsWords">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  <p>Converts text units into their number value</p>
+  Five = 5 Twenty Five = 25 Two hundred twenty five = 225 Two thousand 
+  and twenty five = 2025 Two thousand twenty five = 2025
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>unitText</code></strong> (string) - number text to convert</li>
+    </ul></dd>
+    <dt>Returns: integer</dt>
+        <dd>numerical value of unitText</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_buildTime"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_buildTime</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">source</span>,
+        <span class="sig-arg">quantity</span>,
+        <span class="sig-arg">modifier</span>,
+        <span class="sig-arg">units</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._buildTime">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  Take <code>quantity</code>, <code>modifier</code> and 
+  <code>unit</code> strings and convert them into values. After converting,
+  calcuate the time and return the adjusted sourceTime.
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>source</code></strong> (time) - time to use as the base (or source)</li>
+        <li><strong class="pname"><code>quantity</code></strong> (string) - quantity string</li>
+        <li><strong class="pname"><code>modifier</code></strong> (string) - how quantity and units modify the source time</li>
+        <li><strong class="pname"><code>units</code></strong> (string) - unit of the quantity (i.e. hours, days, months, etc)</li>
+    </ul></dd>
+    <dt>Returns: struct_time</dt>
+        <dd><code>struct_time</code> of the calculated time</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="parseDate"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">parseDate</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">dateString</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.parseDate">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  Parse short-form date strings:
+<pre class="literalblock">
+   '05/28/2006' or '04.21'
+</pre>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dateString</code></strong> (string) - text to convert to a <code>datetime</code></li>
+    </ul></dd>
+    <dt>Returns: struct_time</dt>
+        <dd>calculated <code>struct_time</code> value of dateString</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="parseDateText"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">parseDateText</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">dateString</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.parseDateText">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  Parse long-form date strings:
+<pre class="literalblock">
+   'May 31st, 2006'
+   'Jan 1st'
+   'July 2006'
+</pre>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dateString</code></strong> (string) - text to convert to a datetime</li>
+    </ul></dd>
+    <dt>Returns: struct_time</dt>
+        <dd>calculated <code>struct_time</code> value of dateString</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="evalRanges"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">evalRanges</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">datetimeString</span>,
+        <span class="sig-arg">sourceTime</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.evalRanges">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  Evaluate the <code>datetimeString</code> text and determine if it 
+  represents a date or time range.
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>datetimeString</code></strong> (string) - datetime text to evaluate</li>
+        <li><strong class="pname"><code>sourceTime</code></strong> (struct_time) - <code>struct_time</code> value to use as the base</li>
+    </ul></dd>
+    <dt>Returns: tuple</dt>
+        <dd>tuple of: start datetime, end datetime and the invalid 
+          flag</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_CalculateDOWDelta"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_CalculateDOWDelta</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">wd</span>,
+        <span class="sig-arg">wkdy</span>,
+        <span class="sig-arg">offset</span>,
+        <span class="sig-arg">style</span>,
+        <span class="sig-arg">currentDayStyle</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._CalculateDOWDelta">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  Based on the <code>style</code> and <code>currentDayStyle</code> 
+  determine what day-of-week value is to be returned.
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>wd</code></strong> (integer) - day-of-week value for the current day</li>
+        <li><strong class="pname"><code>wkdy</code></strong> (integer) - day-of-week value for the parsed day</li>
+        <li><strong class="pname"><code>offset</code></strong> (integer) - offset direction for any modifiers (-1, 0, 1)</li>
+        <li><strong class="pname"><code>style</code></strong> (integer) - normally the value set in 
+          <code>Constants.DOWParseStyle</code></li>
+        <li><strong class="pname"><code>currentDayStyle</code></strong> (integer) - normally the value set in 
+          <code>Constants.CurrentDOWParseStyle</code></li>
+    </ul></dd>
+    <dt>Returns: integer</dt>
+        <dd>calculated day-of-week</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_evalModifier"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_evalModifier</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">modifier</span>,
+        <span class="sig-arg">chunk1</span>,
+        <span class="sig-arg">chunk2</span>,
+        <span class="sig-arg">sourceTime</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._evalModifier">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  Evaluate the <code>modifier</code> string and following text (passed 
+  in as <code>chunk1</code> and <code>chunk2</code>) and if they match any 
+  known modifiers calculate the delta and apply it to 
+  <code>sourceTime</code>.
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>modifier</code></strong> (string) - modifier text to apply to sourceTime</li>
+        <li><strong class="pname"><code>chunk1</code></strong> (string) - first text chunk that followed modifier (if any)</li>
+        <li><strong class="pname"><code>chunk2</code></strong> (string) - second text chunk that followed modifier (if any)</li>
+        <li><strong class="pname"><code>sourceTime</code></strong> (struct_time) - <code>struct_time</code> value to use as the base</li>
+    </ul></dd>
+    <dt>Returns: tuple</dt>
+        <dd>tuple of: remaining text and the modified sourceTime</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_evalModifier2"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_evalModifier2</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">modifier</span>,
+        <span class="sig-arg">chunk1</span>,
+        <span class="sig-arg">chunk2</span>,
+        <span class="sig-arg">sourceTime</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._evalModifier2">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  Evaluate the <code>modifier</code> string and following text (passed 
+  in as <code>chunk1</code> and <code>chunk2</code>) and if they match any 
+  known modifiers calculate the delta and apply it to 
+  <code>sourceTime</code>.
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>modifier</code></strong> (string) - modifier text to apply to <code>sourceTime</code></li>
+        <li><strong class="pname"><code>chunk1</code></strong> (string) - first text chunk that followed modifier (if any)</li>
+        <li><strong class="pname"><code>chunk2</code></strong> (string) - second text chunk that followed modifier (if any)</li>
+        <li><strong class="pname"><code>sourceTime</code></strong> (struct_time) - <code>struct_time</code> value to use as the base</li>
+    </ul></dd>
+    <dt>Returns: tuple</dt>
+        <dd>tuple of: remaining text and the modified sourceTime</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_evalString"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_evalString</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">datetimeString</span>,
+        <span class="sig-arg">sourceTime</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar._evalString">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  <p>Calculate the datetime based on flags set by the <a 
+  href="parsedatetime.parsedatetime.Calendar-class.html#parse" 
+  class="link">parse()</a> routine</p>
+  Examples handled:
+<pre class="literalblock">
+   RFC822, W3CDTF formatted dates
+   HH:MM[:SS][ am/pm]
+   MM/DD/YYYY
+   DD MMMM YYYY
+</pre>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>datetimeString</code></strong> (string) - text to try and parse as more &quot;traditional&quot; 
+          date/time text</li>
+        <li><strong class="pname"><code>sourceTime</code></strong> (struct_time) - <code>struct_time</code> value to use as the base</li>
+    </ul></dd>
+    <dt>Returns: datetime</dt>
+        <dd>calculated <code>struct_time</code> value or current 
+          <code>struct_time</code> if not parsed</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="parse"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">parse</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">datetimeString</span>,
+        <span class="sig-arg">sourceTime</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.parse">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  <p>Splits the given <code>datetimeString</code> into tokens, finds the 
+  regex patterns that match and then calculates a <code>struct_time</code> 
+  value from the chunks.</p>
+  <p>If <code>sourceTime</code> is given then the <code>struct_time</code> 
+  value will be calculated from that value, otherwise from the current 
+  date/time.</p>
+  If the <code>datetimeString</code> is parsed and date/time value found
+  then the second item of the returned tuple will be a flag to let you know
+  what kind of <code>struct_time</code> value is being returned:
+<pre class="literalblock">
+   0 = not parsed at all
+   1 = parsed as a C{date}
+   2 = parsed as a C{time}
+   3 = parsed as a C{datetime}
+</pre>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>datetimeString</code></strong> (string) - date/time text to evaluate</li>
+        <li><strong class="pname"><code>sourceTime</code></strong> (struct_time) - <code>struct_time</code> value to use as the base</li>
+    </ul></dd>
+    <dt>Returns: tuple</dt>
+        <dd>tuple of: modified <code>sourceTime</code> and the result 
+          flag</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="inc"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">inc</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">source</span>,
+        <span class="sig-arg">month</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">year</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="parsedatetime.parsedatetime-pysrc.html#Calendar.inc">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </table>
+  
+  <p>Takes the given <code>source</code> date, or current date if none is 
+  passed, and increments it according to the values passed in by month 
+  and/or year.</p>
+  This routine is needed because Python's <code>timedelta()</code> 
+  function does not allow for month or year increments.
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>source</code></strong> (struct_time) - <code>struct_time</code> value to increment</li>
+        <li><strong class="pname"><code>month</code></strong> (integer) - optional number of months to increment</li>
+        <li><strong class="pname"><code>year</code></strong> (integer) - optional number of years to increment</li>
+    </ul></dd>
+    <dt>Returns: datetime</dt>
+        <dd><code>source</code> incremented by the number of months and/or
+          years</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="parsedatetime-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://code-bear.com/code/parsedatetime">parsedatetime</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0beta1 on Mon Apr 21 02:29:34 2008
+    </td>
+    <td align="right" class="footer">
+      <a href="http://epydoc.sourceforge.net">http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie()
+  // -->
+</script>
+  
+</body>
+</html>
