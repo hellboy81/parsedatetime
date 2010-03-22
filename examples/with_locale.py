@@ -24,13 +24,17 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 
-import parsedatetime.parsedatetime as pdt
-import parsedatetime.parsedatetime_consts as pdc
+import logging
+from datetime import datetime
+
+import parsedatetime as pd
+
+logging.getLogger().setLevel(logging.CRITICAL)
 
 # create an instance of Constants class so we can specify the locale
 
-c = pdc.Constants("en")
-p = pdt.Calendar(c)
+c = pd.Constants("en")
+p = pd.Calendar(c)
 
 # print out the values from Constants to show how the locale information
 # is being used/stored internally
@@ -50,13 +54,14 @@ print c.Weekdays                    # list of the full week day names
 print c.localeID                    # the locale identifier
 
 result = p.parse("March 24th")
-
+print result
 
 # create an instance of Constants class and force it to no use PyICU
 # and to use the internal Spanish locale class
 
-c = pdc.Constants(localeID="es", usePyICU=False)
-p = pdt.Calendar(c)
+c = pd.Constants(localeID="es", usePyICU=False)
+p = pd.Calendar(c)
 
 result = p.parse("Marzo 24")
+print result
 
